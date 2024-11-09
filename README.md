@@ -4,14 +4,22 @@ This project provides a powerful document retrieval system by embedding text fro
 
 Key Features
 PDF Text Extraction: Extracts all text content from uploaded PDF files, regardless of length or structure.
+
 Text Splitting: Utilizes RecursiveCharacterTextSplitter to divide text into manageable chunks, which improves embedding quality and search precision.
+
 Embedding with Google Generative AI: Leverages Google Generative AI embeddings for high-quality vector representations.
+
 FAISS Vector Database: Efficient storage and search capabilities using FAISS (Facebook AI Similarity Search), ideal for handling large volumes of text data.
+
 Streamlit Interactive Interface: Provides a user-friendly interface for document upload, embedding, and natural language search queries.
+
 Architecture Overview
 PDF Upload: Users upload one or multiple PDF documents.
+
 Text Extraction and Chunking: Text is extracted from each PDF and split into chunks (based on size and overlap settings).
+
 Embedding and Vector Storage: Each text chunk is embedded using Google Generative AI, and the embeddings are stored in a FAISS vector database.
+
 Query and Retrieval: Users can input queries in natural language. The system searches the FAISS database for the most relevant chunks and returns answers.
 
 Installation
