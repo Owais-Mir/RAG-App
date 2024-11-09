@@ -29,8 +29,8 @@ Google API key for Generative AI embeddings
 
 Steps
 Clone the repository:
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Owais-Mir/RAG-App.git
+cd RAG-App
 
 Install dependencies: Install the required Python packages listed in requirements.txt:
 pip install -r requirements.txt
